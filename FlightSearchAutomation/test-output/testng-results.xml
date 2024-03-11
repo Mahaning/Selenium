@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T18:08:52 IST" name="Functional Testing" finished-at="2022-03-09T18:09:27 IST" duration-ms="35777">
+    <groups>
+    </groups>
+    <test started-at="2022-03-09T18:08:52 IST" name="Flight Search Automation-chromeTest" finished-at="2022-03-09T18:09:09 IST" duration-ms="17028">
+      <class name="TestScenarios.FlightSearch">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:08:52 IST" name="driverConfig" finished-at="2022-03-09T18:09:01 IST" duration-ms="9017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="testcaseReadxl()[pri:1, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:01 IST" name="testcaseReadxl" finished-at="2022-03-09T18:09:03 IST" duration-ms="2561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseReadxl -->
+        <test-method signature="testOrigin()[pri:2, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:03 IST" name="testOrigin" finished-at="2022-03-09T18:09:04 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrigin -->
+        <test-method signature="testDestination()[pri:3, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:04 IST" name="testDestination" finished-at="2022-03-09T18:09:05 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDestination -->
+        <test-method signature="testDate()[pri:4, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:05 IST" name="testDate" finished-at="2022-03-09T18:09:05 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDate -->
+        <test-method signature="testClass()[pri:5, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:05 IST" name="testClass" finished-at="2022-03-09T18:09:06 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass -->
+        <test-method signature="testSubmit()[pri:6, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:06 IST" name="testSubmit" finished-at="2022-03-09T18:09:06 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmit -->
+        <test-method signature="verifyDateCity()[pri:7, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:06 IST" name="verifyDateCity" finished-at="2022-03-09T18:09:07 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateCity -->
+        <test-method signature="testCollectFlights()[pri:8, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:07 IST" name="testCollectFlights" finished-at="2022-03-09T18:09:07 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectFlights -->
+        <test-method signature="screenshot()[pri:9, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:07 IST" name="screenshot" finished-at="2022-03-09T18:09:08 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="prodintoexcel()[pri:10, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:08 IST" name="prodintoexcel" finished-at="2022-03-09T18:09:08 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodintoexcel -->
+        <test-method is-config="true" signature="driverexit()[pri:0, instance:TestScenarios.FlightSearch@209da20d]" started-at="2022-03-09T18:09:08 IST" name="driverexit" finished-at="2022-03-09T18:09:09 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- TestScenarios.FlightSearch -->
+    </test> <!-- Flight Search Automation-chromeTest -->
+    <test started-at="2022-03-09T18:09:09 IST" name="Flight Search Automation-edgeTest" finished-at="2022-03-09T18:09:27 IST" duration-ms="18720">
+      <class name="TestScenarios.FlightSearch">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:09 IST" name="driverConfig" finished-at="2022-03-09T18:09:22 IST" duration-ms="12915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="testcaseReadxl()[pri:1, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:22 IST" name="testcaseReadxl" finished-at="2022-03-09T18:09:22 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseReadxl -->
+        <test-method signature="testOrigin()[pri:2, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:22 IST" name="testOrigin" finished-at="2022-03-09T18:09:23 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrigin -->
+        <test-method signature="testDestination()[pri:3, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:23 IST" name="testDestination" finished-at="2022-03-09T18:09:25 IST" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDestination -->
+        <test-method signature="testDate()[pri:4, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:25 IST" name="testDate" finished-at="2022-03-09T18:09:25 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDate -->
+        <test-method signature="testClass()[pri:5, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:25 IST" name="testClass" finished-at="2022-03-09T18:09:25 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClass -->
+        <test-method signature="testSubmit()[pri:6, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:25 IST" name="testSubmit" finished-at="2022-03-09T18:09:25 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmit -->
+        <test-method signature="verifyDateCity()[pri:7, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:25 IST" name="verifyDateCity" finished-at="2022-03-09T18:09:26 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateCity -->
+        <test-method signature="testCollectFlights()[pri:8, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:26 IST" name="testCollectFlights" finished-at="2022-03-09T18:09:27 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectFlights -->
+        <test-method signature="screenshot()[pri:9, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:27 IST" name="screenshot" finished-at="2022-03-09T18:09:27 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="prodintoexcel()[pri:10, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:27 IST" name="prodintoexcel" finished-at="2022-03-09T18:09:27 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodintoexcel -->
+        <test-method is-config="true" signature="driverexit()[pri:0, instance:TestScenarios.FlightSearch@55634720]" started-at="2022-03-09T18:09:27 IST" name="driverexit" finished-at="2022-03-09T18:09:27 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- TestScenarios.FlightSearch -->
+    </test> <!-- Flight Search Automation-edgeTest -->
+  </suite> <!-- Functional Testing -->
+</testng-results>
